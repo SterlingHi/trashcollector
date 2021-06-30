@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94a6cb5d-e7d5-4178-aa14-d2fc752fcf84" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trash_collector/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trash_collector/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trash_collector/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trash_collector/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trash_collector/.idea/trash_collector.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trash_collector/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6c673057-65f1-4e83-9fca-401fb408d865" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Trash_collector_folder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trash_collector_starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trash_collector_starter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trash_collector_starter.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trash_collector/customers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/trash_collector/customers/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trash_collector/employees/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/trash_collector/employees/models.py" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 06a470874cdfb12997025799b110d61b7b826c41
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,35 +18,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1tUBjWmWhIE7y977mWG0HXaaeNH" />
+  <component name="ProjectId" id="1ugQHDctMl18QjUyg7infMnW29y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/trash_collector/manage.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
-<<<<<<< HEAD
-    <configuration name="trash_config" type="PythonConfigurationType" factoryName="Python">
-=======
-    <configuration name="debug trash" type="PythonConfigurationType" factoryName="Python">
->>>>>>> 06a470874cdfb12997025799b110d61b7b826c41
-      <module name="trash_collector_starter" />
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Trash_collector_folder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\Users\andya\Desktop\andy's code\Day26\Trash_collector_folder\venv\Scripts\python.exe" />
-=======
-      <option name="SDK_HOME" value="C:\Users\Sterling\PycharmProjects\trash_collector_starter\venv\Scripts\python.exe" />
->>>>>>> 06a470874cdfb12997025799b110d61b7b826c41
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trash_collector" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -69,22 +54,18 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-<<<<<<< HEAD
-        <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://127.0.0.1:8000" />
-=======
-        <option name="LaunchBrowser.Before.Run" />
->>>>>>> 06a470874cdfb12997025799b110d61b7b826c41
+        <option name="LaunchBrowser.Before.Run" url="127.0.0.1:8000" />
       </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="94a6cb5d-e7d5-4178-aa14-d2fc752fcf84" name="Default Changelist" comment="" />
-      <created>1622813922556</created>
+      <changelist id="6c673057-65f1-4e83-9fca-401fb408d865" name="Default Changelist" comment="" />
+      <created>1625084662985</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622813922556</updated>
+      <updated>1625084662985</updated>
     </task>
     <servers />
   </component>
@@ -98,5 +79,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
