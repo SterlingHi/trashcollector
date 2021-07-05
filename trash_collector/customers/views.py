@@ -2,6 +2,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Customer
 # Create your views here.
+from django.contrib.auth.models import Group
+
 
 # TODO: Create a function for each path created in customers/urls.py. Each will need a template as well.
 
@@ -14,3 +16,19 @@ def index(request):
     # thereby finding the customer/employee profile that matches with the logged-in user.
     print(user)
     return render(request, 'customers/index.html')
+
+
+def weekly(request):
+    return render(request, 'customers/weekly.html')
+
+
+def onetime(request):
+    return render(request, 'customers/onetime.html')
+
+
+def suspend(request):
+    return render(request, 'customers/suspend.html')
+
+
+def balance(request):
+    return render(request, 'customers/balance.html')
