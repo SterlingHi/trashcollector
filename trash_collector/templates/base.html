@@ -9,6 +9,7 @@
   {% for group in user.groups.all%}
     {% if group.name == "Customers" %}
     <p>Customer Navbar</p>
+    <a href="{% url 'customers:index' %}">Index Page</a>
     <a href="{% url 'customers:onetime' %}">One Time Pickup</a>
     <a href="{% url 'customers:weekly' %}">Weekly Pickup</a>
     <a href="{% url 'customers:suspend' %}">Suspend Pickup</a>

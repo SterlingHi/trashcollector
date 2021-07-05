@@ -19,6 +19,8 @@ def index(request):
 
 
 def weekly(request):
+    user = request.user
+    print(user)
     return render(request, 'customers/weekly.html')
 
 
@@ -31,4 +33,6 @@ def suspend(request):
 
 
 def balance(request):
+    user = request.user
+    print(user)
     return render(request, 'customers/balance.html')
