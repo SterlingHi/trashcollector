@@ -4,11 +4,9 @@
     <list default="true" id="6c673057-65f1-4e83-9fca-401fb408d865" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trash_collector/customers/templates/customers/balance.html" beforeDir="false" afterPath="$PROJECT_DIR$/trash_collector/customers/templates/customers/balance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trash_collector/customers/templates/customers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/trash_collector/customers/templates/customers/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trash_collector/customers/templates/customers/onetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/trash_collector/customers/templates/customers/onetime.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trash_collector/customers/templates/customers/suspend.html" beforeDir="false" afterPath="$PROJECT_DIR$/trash_collector/customers/templates/customers/suspend.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trash_collector/customers/templates/customers/weekly.html" beforeDir="false" afterPath="$PROJECT_DIR$/trash_collector/customers/templates/customers/weekly.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trash_collector/customers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trash_collector/customers/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
