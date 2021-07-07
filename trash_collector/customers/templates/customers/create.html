@@ -13,9 +13,17 @@
     Name:<input type="text" name="name" id="name"><br>
     Address:<input type="text" name="address" id="address"><br>
     Zip Code:<input type="text" name="zip_code" id="zip_code"><br>
-    Weekly Pickup Day:<input type="text" name="weekly_pickup_day" id="weekly_pickup_day"><br>
-    One Time Pickup:<input type="text" name="onetime_pickup" id="onetime_pickup"><br>
-    Start Suspension:<input type="text" name="start_suspension" id="start_suspension"><br>
+    Weekly Pickup Day:<select name="weekly_pickup_day"><br>
+                        <option value="Sunday">Sunday</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Sunday</option>
+                        </select><br>
+    One Time Pickup:<input type="date" name="onetime_pickup" id="onetime_pickup"><br>
+    Start Suspension:<input type="date" name="start_suspension" id="start_suspension"><br>
     Account Balance:{{logged_in_customer.balance}}<br>
     <input type="submit" value="Add New Customer!">
 </form>
