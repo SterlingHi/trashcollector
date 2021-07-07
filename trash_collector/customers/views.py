@@ -23,7 +23,11 @@ def index(request):
 
 # creating a new customer view function
 def create(request):
-    user = request.user
+    logged_in_customer = Customer.objects.get(user=request.user)
+    context = {
+        'logged_in_customer': logged_in_customer
+    }
+#    user = request.user
     if request.method == 'POST':
         # Get the current user who is signed
         # Grab the values from the inputs on the form
@@ -47,7 +51,8 @@ def create(request):
         new_customer.save()
         return HttpResponseRedirect(reverse('customers:index'))
     else:
-        return render(request, 'customers/create.html')
+        return render(request, 'customers/create.html', context)
+
 #        # Bring up the create.html file to the screen (this create.html file should have a form for creating a customer row)
 
 # Edit customer view function

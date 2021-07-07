@@ -11,6 +11,7 @@
     <p>Customer Navbar</p>
     <a href="{% url 'customers:index' %}">Index Page</a>
     <a href="{% url 'customers:details' %}">Details</a>
+    <a href="{% url 'customers:create' %}">Create a Customer</a>
     {% elif group.name == "Employees" %}
     <p>Employee Navbar</p>
     {% endif %}

@@ -8,13 +8,13 @@
 {% block content %}
   {% if user.is_authenticated %}
     Hello Customer {{ user.username }}!<br>
-    NAME:{{logged_in_customer.name}}
-    Pickup Day:{{logged_in_customer.weekly_pickup_day}}
-    One Time Pickup:{{logged_in_customer.onetime_pickup}}
-    Start a Suspention:{{logged_in_customer.start_suspension}}
-    Account Balance:{{logged_in_customer.balance}}
-    Zip code:{{logged_in_customer.balance}}
-    address:{{logged_in_customer.address}}
+    Name:{{logged_in_customer.name}}<br>
+    Pickup Day:{{logged_in_customer.weekly_pickup_day}}<br>
+    One Time Pickup:{{logged_in_customer.onetime_pickup}}<br>
+    Start a Suspension:{{logged_in_customer.start_suspension}}<br>
+    Account Balance:{{logged_in_customer.balance}}<br>
+    Zip code:{{logged_in_customer.balance}}<br>
+    address:{{logged_in_customer.address}}<br>
   {% else %}
     <p>You are at the customer index, but you are not logged in.</p>
   {% endif %}
