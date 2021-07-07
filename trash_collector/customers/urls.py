@@ -7,8 +7,9 @@ from . import views
 app_name = "customers"
 urlpatterns = [
     path('', views.index, name="index"),
-    path('onetime/', views.onetime, name='onetime'),
-    path('suspend/', views.suspend, name='suspend'),
-    path('weekly/', views.weekly, name='weekly'),
-    path('balance/', views.balance, name='balance')
+    # path('onetime/', views.onetime, name='onetime'),
+    # path('suspend/', views.suspend, name='suspend'),
+    # path('weekly/', views.weekly, name='weekly'),
+    # path('balance/', views.balance, name='balance'),
+    path('details/', views.details, name='details')
 ]
